@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <main class="row flex-row-reverse m-auto shadow bg-white px-0 rounded-3">
+        <div class="col">
+            <h2 class="text-center mb-5">Upload or take a photo</h2>
+            <!-- Todo: Create form username and password inputs -->
+            <form id="form">
+                <input type="file" accept="image/*" id="file-input">
+                <button type="submit" id="upload-button">Upload Image</button>
+            </form>
+            <img src="" id="preview" style="max-width: 800px; max-height: 500px;">
+        </div>
+    </main>
+</div>
+<script src="validation.js"></script>

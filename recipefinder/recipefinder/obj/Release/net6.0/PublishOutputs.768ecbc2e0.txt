@@ -1,0 +1,14 @@
+F:\azuras\recipefinder\recipefinder\obj\Release\net6.0\PubTmp\Out\recipefinder.exe
+F:\azuras\recipefinder\recipefinder\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+F:\azuras\recipefinder\recipefinder\obj\Release\net6.0\PubTmp\Out\appsettings.json
+F:\azuras\recipefinder\recipefinder\obj\Release\net6.0\PubTmp\Out\Views\Home\validation.js
+F:\azuras\recipefinder\recipefinder\obj\Release\net6.0\PubTmp\Out\recipefinder.dll
+F:\azuras\recipefinder\recipefinder\obj\Release\net6.0\PubTmp\Out\recipefinder.deps.json
+F:\azuras\recipefinder\recipefinder\obj\Release\net6.0\PubTmp\Out\recipefinder.runtimeconfig.json
+F:\azuras\recipefinder\recipefinder\obj\Release\net6.0\PubTmp\Out\recipefinder.pdb
+F:\azuras\recipefinder\recipefinder\obj\Release\net6.0\PubTmp\Out\Azure.Core.dll
+F:\azuras\recipefinder\recipefinder\obj\Release\net6.0\PubTmp\Out\Azure.Storage.Blobs.dll
+F:\azuras\recipefinder\recipefinder\obj\Release\net6.0\PubTmp\Out\Azure.Storage.Common.dll
+F:\azuras\recipefinder\recipefinder\obj\Release\net6.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
+F:\azuras\recipefinder\recipefinder\obj\Release\net6.0\PubTmp\Out\System.IO.Hashing.dll
+F:\azuras\recipefinder\recipefinder\obj\Release\net6.0\PubTmp\Out\System.Memory.Data.dll
