@@ -3,6 +3,9 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using recipeFinder.Models;
 using Azure.Storage.Blobs;
+using System.Net;
+using recipefinder.Controllers;
+using System.Text.Json;
 
 namespace recipeFinder.Controllers;
 
@@ -17,16 +20,50 @@ public class HomeController : Controller
         _logger = logger;
         this.config = config;
     }
+
     [HttpPost("getrecipe")]
-    public async Task<IActionResult> DoSomething([FromForm] IFormFile image)
+    public async Task<IActionResult> DoSomething()
     {
-        /* Tutaj dodać łączenie z mlem i jego odpowiedź sparsować na recipeName */
+        //if(image is null) {
+        //    return BadRequest("No file provided.");
+        // }
+        var uploadedFile = Request.Form.Files;
+        foreach (var file in uploadedFile)
+        {
+            string Filename = file.FileName;
+            Console.WriteLine(Filename);
+        }
+        var image = uploadedFile[0];
 
+        WebRequest request = HttpWebRequest.Create("http://5613cafb-fb2a-4132-9a3e-0d32dc030956.northeurope.azurecontainer.io/score");
+        request.Method = "POST";
+        request.Headers.Add("Content-Type", "application/octet-stream");
+        var f = image.OpenReadStream();
+        using (var ms = new MemoryStream())
+        {
+            f.CopyTo(ms);
+            var fileBytes = ms.ToArray();
+            request.ContentLength = fileBytes.Length;
+            Stream stream = request.GetRequestStream();
+            stream.Write(fileBytes, 0, fileBytes.Length);
+            stream.Close();
+        }
+        HttpWebResponse response = (HttpWebResponse)request.GetResponseAsync().Result;
 
+        string json = new StreamReader(response.GetResponseStream()).ReadToEnd();
 
+        ResponseJson? jsonResponse = JsonSerializer.Deserialize<ResponseJson>(json);
+        int maxIndex = 0;
+        for (int i = 0; i < jsonResponse.probs.Length; i++)
+        {
+            if (jsonResponse.probs[i] > jsonResponse.probs[maxIndex])
+            {
+                maxIndex = i;
+            }
+        }
 
-
-        string recipeName = "apple_pie"; // to co wypluje ML
+        string recipeName = jsonResponse.labels[maxIndex]; // to co wypluje ML
+        Console.WriteLine(recipeName);
         var connectionString = config.GetValue<string>("blobConnectionString");
         var blobContainerName = config.GetValue<string>("blobContainerName");
         BlobClient blobClient = new BlobClient(connectionString, blobContainerName, recipeName);
@@ -39,6 +76,8 @@ public class HomeController : Controller
             return File(stream.ToArray(), contentType, blobClient.Name);
         }
     }
+
+
     [AllowAnonymous]
     public IActionResult Index()
     {
