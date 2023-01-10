@@ -13,3 +13,20 @@
 We are third-year students of Applied Computer Science at the Faculty of Electrical Engineering at Warsaw University of Technology.
 
 Our project was developed as part of the *Introduction to Artificial Intelligence and Microsoft Azure-based Applications and Solutions* course.
+
+### Purpose of the project
+
+The aim of the project was to create an app that would provide a recipe for a particular dish based on a photo uploaded by its user.
+
+### Functionality description
+
+Based on the photo of the dish provided by the user, the application recognises the dish presented in the image, returns the ingredients needed to make this dish and the recipe.
+The application requires you to log in first.
+
+### Application demo
+
+### Map of technologies
+
+### Description of the technologies used
+
+### Installation
