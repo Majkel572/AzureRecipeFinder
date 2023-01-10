@@ -96,20 +96,25 @@
             })
                 .then(response => {
                     if (response.ok) {
-                        // Parse the response as a blob
+                        const disposition = response.headers.get('Content-Disposition');
+                        filename = disposition.split(/;(.+)/)[1].split(/=(.+)/)[1];
+                        filename = filename.split(";")[0];
+                        console.log(filename);
+
                         return response.blob();
                     } else {
                         throw new Error('An error occurred');
                     }
                 })
                 .then(blob => {
+                    const file = new File([blob], '', { type: blob.type });
                     // Create a URL for the file
                     const url = URL.createObjectURL(blob);
 
                     // Create a link element and set the href to the file URL
                     const a = document.createElement('a');
                     a.href = url;
-                    a.download = 'recipe.txt'; // Set the download file name
+                    a.download = filename + ".txt"; // Set the download file name
 
                     // Append the link to the body and click it to download the file
                     document.body.appendChild(a);

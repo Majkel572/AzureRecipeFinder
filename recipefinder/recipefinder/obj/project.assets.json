@@ -1248,19 +1248,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jakub\\.nuget\\packages\\": {}
+    "C:\\Users\\mikul\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\jakub\\Desktop\\azure\\AzureRecipeFinder\\recipefinder\\recipeFinder\\recipeFinder.csproj",
-      "projectName": "recipeFinder",
-      "projectPath": "c:\\Users\\jakub\\Desktop\\azure\\AzureRecipeFinder\\recipefinder\\recipeFinder\\recipeFinder.csproj",
-      "packagesPath": "C:\\Users\\jakub\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\jakub\\Desktop\\azure\\AzureRecipeFinder\\recipefinder\\recipeFinder\\obj\\",
+      "projectUniqueName": "F:\\azurekkoniec\\AzureRecipeFinder\\recipefinder\\recipefinder\\recipefinder.csproj",
+      "projectName": "recipefinder",
+      "projectPath": "F:\\azurekkoniec\\AzureRecipeFinder\\recipefinder\\recipefinder\\recipefinder.csproj",
+      "packagesPath": "C:\\Users\\mikul\\.nuget\\packages\\",
+      "outputPath": "F:\\azurekkoniec\\AzureRecipeFinder\\recipefinder\\recipefinder\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jakub\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mikul\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
