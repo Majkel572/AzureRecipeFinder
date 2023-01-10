@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_theme_navy">#1B4571</color>
+    <color name="color_theme_dark_purple">#4d3d6f</color>
+    <color name="color_theme_pink">#E22567</color>
+    <color name="color_theme_gray">#829298</color>
+    <color name="color_theme_light_purple">#7F356C</color>
+    <color name="black">#2A2D34</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

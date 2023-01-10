@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">RecipeFinder</string>
+
+    <!-- Main Activity strings !-->
+    <string name="main_activity_first_button">Take photo</string>
+    <string name="main_activity_second_button">Get photo from gallery</string>
+    <string name="main_activity_third_button">About us</string>
+
+    <!-- Camera Activity strings !-->
+    <string name="camera_activity_take_photo">Take photo</string>
+    <string name="camera_activity_open_camera">Open camera</string>
+
+    <!-- Display Photo Activity strings !-->
+    <string name="captured_image_upload">Upload</string>
+    <string name="captured_image_retake">Retake</string>
+
+    <!-- Display recipe !-->
+    <string name="display_recipe">Your recipe:</string>
+
+     <!-- About Us Section !-->
+    <string name="about_us_text">We are third-year students of Applied Computer Science at the Faculty of Electrical Engineering at Warsaw University of Technology.</string>
+    <string name="authors"> Author \t| github name \n
+        Michał Ziober \t| micha5555     \n
+        Jakub Maciejewski \t| PiorunPL  \n
+        Mikołaj Guryn \t| Majkel572     \n
+        Maja Nagarnowicz \t| nebraszka  \n
+        Jakub Urbański \t| urbanski220  \n
+        Jakub Goliszewski \t| jgoliszewski</string>
+
+</resources>
