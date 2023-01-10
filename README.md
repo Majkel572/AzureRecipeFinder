@@ -1,6 +1,6 @@
 
 # Recipe Finder
-![Our logo](https://github.com/Majkel572/AzureRecipeFinder/blob/mobile-app/app/src/debug/res/drawable/logo_color.png)
+![our logo](https://github.com/Majkel572/AzureRecipeFinder/blob/mobile-app/app/src/debug/res/drawable/logo_color.png)
 #### Contributors
 
 - [Michał Ziober](https://github.com/micha5555)
@@ -29,4 +29,8 @@ The application requires you to log in first.
 
 ### Description of the technologies used
 
-### Installation
+### Usage - web application
+To use our web application you need to navigate to the [link](https://recipefinder7.azurewebsites.net/) and then press the **Sign In** button at the top right of the website. Once logged in, click on the **Upload** section located in the top right corner of the website. Once you have selected an image from your computer storage, press the **Upload Image** button. The download of the file *recipe.txt* will automatically start. 
+- The first line of this file contains *the name* of the recognised dish,
+- the next paragraph contains *the ingredients* needed to make the dish,
+- the last paragraph contains *the instructions* for making the dish.
