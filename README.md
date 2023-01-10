@@ -1,1 +1,38 @@
-# AzureRecipeFinder
+
+# Recipe Finder
+![our logo](https://github.com/Majkel572/AzureRecipeFinder/blob/mobile-app/app/src/debug/res/drawable/logo_color.png)
+#### Contributors
+
+- [Michał Ziober](https://github.com/micha5555)
+- [Maja Nagarnowicz](https://github.com/nebraszka)
+- [Jakub Maciejewski](https://github.com/PiorunPL)
+- [Jakub Urbański](https://github.com/urbanski220)
+- [Mikołaj Guryn](https://github.com/Majkel572)
+- [Jakub Goliszewski](https://github.com/jgoliszewski)
+
+We are third-year students of Applied Computer Science at the Faculty of Electrical Engineering at Warsaw University of Technology.
+
+Our project was developed as part of the *Introduction to Artificial Intelligence and Microsoft Azure-based Applications and Solutions* course.
+
+### Purpose of the project
+
+The aim of the project was to create an app that would provide a recipe for a particular dish based on a photo uploaded by its user.
+
+### Functionality description
+
+Based on the photo of the dish provided by the user, the application recognises the dish presented in the image, returns the ingredients needed to make this dish and the recipe.
+The application requires you to log in first.
+
+### Application demo
+
+### Map of technologies
+
+![diagram](https://github.com/Majkel572/AzureRecipeFinder/blob/main/diagram.drawio_page-0001.jpg)
+
+### Description of the technologies used
+
+### Usage - web application
+To use our web application you need to navigate to the [link](https://recipefinder7.azurewebsites.net/) and then press the **Sign In** button at the top right of the website. Once logged in, click on the **Upload** section located in the top right corner of the website. Once you have selected an image from your computer storage, press the **Upload Image** button. The download of the file *recipe.txt* will automatically start. 
+- The first line of this file contains *the name* of the recognised dish,
+- the next paragraph contains *the ingredients* needed to make the dish,
+- the last paragraph contains *the instructions* for making the dish.
