@@ -27,9 +27,9 @@ The application requires you to log in first.
 
 ### Map of technologies
 
-### Description of the technologies used
+![diagram](https://github.com/Majkel572/AzureRecipeFinder/blob/main/diagram.drawio_page-0001.jpg)
 
-![diagram](https://github.com/Majkel572/AzureRecipeFinder/blob/main/diagram.drawio.pdf)
+### Description of the technologies used
 
 ### Usage - web application
 To use our web application you need to navigate to the [link](https://recipefinder7.azurewebsites.net/) and then press the **Sign In** button at the top right of the website. Once logged in, click on the **Upload** section located in the top right corner of the website. Once you have selected an image from your computer storage, press the **Upload Image** button. The download of the file *recipe.txt* will automatically start. 
