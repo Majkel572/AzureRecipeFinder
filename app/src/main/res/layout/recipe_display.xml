@@ -44,14 +44,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/recipeTitletv"
-            app:layout_constraintBottom_toTopOf="@id/confirmBtn"
+            app:layout_constraintBottom_toTopOf="@id/recipeDisplayBackBtn"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:gravity="center"
             android:text="1)Make apple pie"/>
 
         <Button
-            android:id="@+id/confirmBtn"
+            android:id="@+id/recipeDisplayBackBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/recipeTv"

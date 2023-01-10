@@ -1,6 +1,7 @@
 package pw.azure.recipefinder;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
@@ -81,6 +82,9 @@ public class DisplayPhotoActivity extends AppCompatActivity {
                         }
                     }
                 });
+
+                Intent intent = new Intent(view.getContext(), RecipeDisplayActivity.class);
+                view.getContext().startActivity(intent);
             }
         });
 
