@@ -38,7 +38,7 @@ The application requires you to log in first.
 - Active Directory - logging in to the application with a Microsoft account
 - Web App Service - enables the creation of an endpoint for communication between the ml blob and the user
 - Microsoft Cost Management - allows you to keep track of expenses related to the use of Azure services, in particular Azure Machine Learning
-- Azure Key Vault 
+- Azure Key Vault - contains connection string to blob storage
 - Azure Advisor 
 - Azure Monitor
 
