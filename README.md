@@ -1,4 +1,5 @@
 
+
 # Recipe Finder
 ![our logo](https://github.com/Majkel572/AzureRecipeFinder/blob/mobile-app/app/src/debug/res/drawable/logo_color.png)
 #### Contributors
@@ -25,11 +26,22 @@ The application requires you to log in first.
 
 ### Application demo
 
+[Demo of our application](https://www.youtube.com/watch?v=KMOndmBJCx8)
+
 ### Map of technologies
 
 ![diagram](https://github.com/Majkel572/AzureRecipeFinder/blob/main/diagram.drawio_page-0001.jpg)
+##### Used Azure services:
+- Azure Machine Learning - developing a food recognition model
+- Azure Container Registry - deploy Azure machine learning models as a secure endpoint
+- Azure storage account - storage of files 
+- Active Directory - logging in to the application with a Microsoft account
+- Web App Service - enables the creation of an endpoint for communication between the ml blob and the user
 
-### Description of the technologies used
+##### Other technologies used:
+- Python - it was used in a notebook in the Azure Machine Learning service to create and train a model, and then to create an endpoint with the finished model. It was also used to process the dataset and insert recipes into the blob
+- ASP.NET Core 6.0 - developing the API
+- Github - code hosting platform for version control and collaboration
 
 ### Usage - web application
 To use our web application you need to navigate to the [link](https://recipefinder7.azurewebsites.net/) and then press the **Sign In** button at the top right of the website. Once logged in, click on the **Upload** section located in the top right corner of the website. Once you have selected an image from your computer storage, press the **Upload Image** button. The download of the file *recipe.txt* will automatically start. 
