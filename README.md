@@ -37,6 +37,10 @@ The application requires you to log in first.
 - Azure storage account - storage of files 
 - Active Directory - logging in to the application with a Microsoft account
 - Web App Service - enables the creation of an endpoint for communication between the ml blob and the user
+- Microsoft Cost Management - allows you to keep track of expenses related to the use of Azure services, in particular Azure Machine Learning
+- Azure Key Vault 
+- Azure Advisor 
+- Azure Monitor
 
 ##### Other technologies used:
 - Python - it was used in a notebook in the Azure Machine Learning service to create and train a model, and then to create an endpoint with the finished model. It was also used to process the dataset and insert recipes into the blob
