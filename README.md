@@ -34,7 +34,7 @@ The application requires you to log in first.
 ##### Used Azure services:
 - Azure Machine Learning - developing a food recognition model
 - Azure Container Registry - deploy Azure machine learning models as a secure endpoint
-- Azure storage account - storage of files 
+- Azure Storage Account - storage of files 
 - Active Directory - logging in to the application with a Microsoft account
 - Web App Service - enables the creation of an endpoint for communication between the ml blob and the user
 - Microsoft Cost Management - allows you to keep track of expenses related to the use of Azure services, in particular Azure Machine Learning
