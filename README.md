@@ -8,7 +8,7 @@
 - [Maja Nagarnowicz](https://github.com/nebraszka)
 - [Jakub Maciejewski](https://github.com/PiorunPL)
 - [Jakub Urbański](https://github.com/urbanski220)
-- [Mikołaj Guryn](https://github.com/Majkel572)
+- [Mikołaj Guryn](https://github.com/Majki572)
 - [Jakub Goliszewski](https://github.com/jgoliszewski)
 
 We are third-year students of Applied Computer Science at the Faculty of Electrical Engineering at Warsaw University of Technology.
